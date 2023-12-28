@@ -115,7 +115,7 @@
 .home-slider-slide11 {
   display: flex ;
   background-size: 100%;
-background-image: url('Pano/Slide12.JPG');
+  background-image: url('Pano/Slide12.JPG');
 }
 .home-slider-slide12 {
   display: flex ;
@@ -142,7 +142,6 @@ background-image: url('Pano/Slide12.JPG');
   background-size: 100%;
   background-image: url('Pano/Slide17.JPG');
 }
-
 .home-slider-pagination {
   display: block;
 }
@@ -292,8 +291,10 @@ background-image: url('Pano/Slide12.JPG');
     width: 767px;
   }
   .home-slider {
-    width: 767px;
+    width: 95%;
     height: 425px;
+    margin-left: 0px;
+    align-content: center;
     margin-bottom: 0px;
   }
   .home-footer1 {
@@ -327,7 +328,7 @@ background-image: url('Pano/Slide12.JPG');
     margin-bottom: var(--dl-space-space-unit);
   }
   .home-slider {
-    width: 479px;
+    width: 95%;
     height: 262px;
     padding-bottom: 0px;
   }
