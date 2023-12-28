@@ -50,7 +50,7 @@
 }
 .home-slider {
   width: 1032px;
-  height: 560;
+  height: fit-content;
   display: inline-block;
 }
 .home-slider-wrapper {
@@ -291,8 +291,8 @@
     width: 767px;
   }
   .home-slider {
-    width: 95%;
-    height: 425px;
+    width: 80%;
+    height: fit-content;
     margin-left: 0px;
     align-content: center;
     margin-bottom: 0px;
@@ -328,13 +328,16 @@
     margin-bottom: var(--dl-space-space-unit);
   }
   .home-slider {
-    width: 95%;
-    height: 262px;
+    width: 85%;
+    height: fit-content;
     padding-bottom: 0px;
   }
   .home-slider-wrapper {
     height: 100%;
     padding-bottom: 0px;
+  }
+  .home-slider-slide {
+    height: 262px;
   }
   .home-btn-group {
     flex-direction: column;
