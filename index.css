@@ -50,7 +50,7 @@
 }
 .home-slider {
   width: 1032px;
-  height: fit-content;
+  height: 560px;
   display: inline-block;
 }
 .home-slider-wrapper {
@@ -60,87 +60,87 @@
   height: 560px;
   display: flex;
   background-size: 100%;
-  background-image: url('Pano/Slide1.JPG');
+  background-image: url('https://ubsnpolyu.github.io/Pano/Slide1.JPG');
 }
 .home-slider-slide01 {
   display: flex;
   background-size: 100%;
-  background-image: url('Pano/Slide2.JPG');
+  background-image: url('https://ubsnpolyu.github.io/Pano/Slide2.JPG');
 }
 .home-slider-slide02 {
   display: flex;
   background-size: 100%;
-  background-image: url('Pano/Slide3.JPG');
+  background-image: url('https://ubsnpolyu.github.io/Pano/Slide3.JPG');
 }
 .home-slider-slide03 {
   display: flex ;
   background-size: 100%;
-  background-image: url('Pano/Slide4.JPG');
+  background-image: url('https://ubsnpolyu.github.io/Pano/Slide4.JPG');
 }
 .home-slider-slide04 {
   display: flex ;
   background-size: 100%;
-  background-image: url('Pano/Slide5.JPG');
+  background-image: url('https://ubsnpolyu.github.io/Pano/Slide5.JPG');
 }
 .home-slider-slide05 {
   display: flex ;
   background-size: 100%;
-  background-image: url('Pano/Slide6.JPG');
+  background-image: url('https://ubsnpolyu.github.io/Pano/Slide6.JPG');
 }
 .home-slider-slide06 {
   display: flex ;
   background-size: 100%;
-  background-image: url('Pano/Slide7.JPG');
+  background-image: url('https://ubsnpolyu.github.io/Pano/Slide7.JPG');
 }
 .home-slider-slide07 {
   display: flex ;
   background-size: 100%;
-  background-image: url('Pano/Slide8.JPG');
+  background-image: url('https://ubsnpolyu.github.io/Pano/Slide8.JPG');
 }
 .home-slider-slide08 {
   display: flex ;
   background-size: 100%;
-  background-image: url('Pano/Slide9.JPG');
+  background-image: url('https://ubsnpolyu.github.io/Pano/Slide9.JPG');
 }
 .home-slider-slide09 {
   display: flex ;
   background-size: 100%;
-  background-image: url('Pano/Slide10.JPG');
+  background-image: url('https://ubsnpolyu.github.io/Pano/Slide10.JPG');
 }
 .home-slider-slide10 {
   display: flex ;
   background-size: 100%;
-  background-image: url('Pano/Slide11.JPG');
+  background-image: url('https://ubsnpolyu.github.io/Pano/Slide11.JPG');
 }
 .home-slider-slide11 {
   display: flex ;
   background-size: 100%;
-  background-image: url('Pano/Slide12.JPG');
+  background-image: url('https://ubsnpolyu.github.io/Pano/Slide12.JPG');
 }
 .home-slider-slide12 {
   display: flex ;
   background-size: 100%;
-  background-image: url('Pano/Slide13.JPG');
+  background-image: url('https://ubsnpolyu.github.io/Pano/Slide13.JPG');
 }
 .home-slider-slide13 {
   display: flex ;
   background-size: 100%;
-  background-image: url('Pano/Slide14.JPG');
+  background-image: url('https://ubsnpolyu.github.io/Pano/Slide14.JPG');
 }
 .home-slider-slide14 {
   display: flex ;
   background-size: 100%;
-  background-image: url('Pano/Slide15.JPG');
+  background-image: url('https://ubsnpolyu.github.io/Pano/Slide15.JPG');
 }
 .home-slider-slide15 {
   display: flex ;
   background-size: 100%;
-  background-image: url('Pano/Slide16.JPG');
+  background-image: url('https://ubsnpolyu.github.io/Pano/Slide16.JPG');
 }
 .home-slider-slide16 {
   display: flex ;
   background-size: 100%;
-  background-image: url('Pano/Slide17.JPG');
+  background-image: url('https://ubsnpolyu.github.io/Pano/Slide17.JPG');
 }
 .home-slider-pagination {
   display: block;
@@ -278,8 +278,11 @@
     text-align: center;
   }
   .home-slider {
-    width: 100%;
+    width: 767px;
+    height: 431px;
+    margin-left: 0px;
     margin-right: 0px;
+    align-content: center;
   }
 }
 @media(max-width: 767px) {
@@ -291,8 +294,8 @@
     width: 767px;
   }
   .home-slider {
-    width: 80%;
-    height: fit-content;
+    width: 479px;
+    height: 269px;
     margin-left: 0px;
     align-content: center;
     margin-bottom: 0px;
@@ -328,8 +331,9 @@
     margin-bottom: var(--dl-space-space-unit);
   }
   .home-slider {
-    width: 85%;
-    height: fit-content;
+    width: 288px;
+    height: 162px;
+    margin-left: 0px;
     padding-bottom: 0px;
   }
   .home-slider-wrapper {
