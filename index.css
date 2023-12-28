@@ -39,10 +39,14 @@
 .home-hero-heading {
   color: var(--dl-color-gray-white);
   width: 1000px;
+  height: 88px;
   max-width: 800px;
   text-align: center;
   font-family: "Raleway";
   line-height: 1.6;
+}
+.home-text2 {
+  color: #ffffff;
 }
 .home-slider {
   width: 1032px;
@@ -227,7 +231,7 @@ background-image: url('Pano/Slide12.JPG');
   flex-direction: row;
   justify-content: space-between;
 }
-.home-text2 {
+.home-text5 {
   color: var(--dl-color-secondary-gray500);
 }
 .home-icon-group {
@@ -270,6 +274,9 @@ background-image: url('Pano/Slide12.JPG');
   .home-hero-heading {
     text-align: center;
   }
+  .home-text {
+    text-align: center;
+  }
   .home-slider {
     margin-right: 0px;
   }
@@ -302,7 +309,7 @@ background-image: url('Pano/Slide12.JPG');
     flex-direction: column;
     justify-content: space-between;
   }
-  .home-text2 {
+  .home-text5 {
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
 }
@@ -344,7 +351,7 @@ background-image: url('Pano/Slide12.JPG');
     flex-direction: column;
     justify-content: space-between;
   }
-  .home-text2 {
+  .home-text5 {
     text-align: center;
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
