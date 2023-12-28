@@ -326,7 +326,12 @@ background-image: url('Pano/Slide12.JPG');
   }
   .home-slider {
     width: 479px;
-    height: 304px;
+    height: 262px;
+    padding-bottom: 0px;
+  }
+  .home-slider-wrapper {
+    height: 100%;
+    padding-bottom: 0px;
   }
   .home-btn-group {
     flex-direction: column;
