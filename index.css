@@ -254,7 +254,6 @@
   display: contents;
 }
 .home-icon2 {
-  fill: var(--dl-color-secondary-gray500);
   width: 24px;
   height: 24px;
   z-index: 100;
