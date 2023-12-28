@@ -25,7 +25,7 @@
   padding-left: var(--dl-space-space-threeunits);
   padding-right: var(--dl-space-space-threeunits);
   flex-direction: column;
-  padding-bottom: var(--dl-space-space-sixunits);
+  padding-bottom: var(--dl-space-space-twounits);
   justify-content: center;
 }
 .home-container1 {
@@ -48,15 +48,11 @@
   color: #ffffff;
 }
 .home-slider {
-  width: 1032px;
-  height: 560px;
+  width: 1280px;
+  height: 720px;
   display: inline-block;
 }
-.home-slider-wrapper {
-  height: 561px;
-}
 .home-slider-slide {
-  height: 560px;
   display: flex;
   background-size: 100%;
   background-image: url('https://ubsnpolyu.github.io/Pano/Slide1.JPG');
@@ -258,10 +254,19 @@
   z-index: 100;
   text-decoration: none;
 }
-@media(max-width: 991px) {
-  .home-hero1 {
-    flex-direction: column;
+@media(max-width: 1600px) {
+  .home-slider {
+    width: 1200;
+    height: 675;
   }
+}
+@media(max-width: 1200px) {
+  .home-slider {
+    width: 991;
+    height: 557;
+  }
+}
+@media(max-width: 991px) {
   .home-container1 {
     width: 991px;
     align-items: center;
@@ -332,13 +337,6 @@
     height: 162px;
     margin-left: 0px;
     padding-bottom: 0px;
-  }
-  .home-slider-wrapper {
-    height: 100%;
-    padding-bottom: 0px;
-  }
-  .home-slider-slide {
-    height: 262px;
   }
   .home-btn-group {
     flex-direction: column;
