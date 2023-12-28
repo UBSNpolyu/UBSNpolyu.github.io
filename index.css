@@ -13,7 +13,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  background-color: var(--dl-color-primary1-blue80);
+  background-image: linear-gradient(0deg, rgb(2, 119, 189) 0.00%,rgb(2, 31, 79) 100.00%);
 }
 .home-hero1 {
   width: 100%;
@@ -27,7 +27,6 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-sixunits);
   justify-content: center;
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0.00%,rgba(0, 95, 102, 0.8) 100.00%);
 }
 .home-container1 {
   gap: var(--dl-space-space-twounits);
@@ -281,7 +280,6 @@
     height: 431px;
     margin-left: 0px;
     margin-right: 0px;
-    align-content: center;
   }
 }
 @media(max-width: 767px) {
