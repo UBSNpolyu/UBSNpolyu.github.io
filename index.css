@@ -5,6 +5,7 @@
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
+  background-color: var(--dl-color-gray-black);
 }
 .home-hero {
   flex: 0 0 auto;
@@ -261,9 +262,6 @@
   }
 }
 @media(max-width: 1200px) {
-  .home-container {
-    background-color: var(--dl-color-gray-black);
-  }
   .home-container1 {
     width: 100vw;
   }
