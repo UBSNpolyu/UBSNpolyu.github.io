@@ -261,6 +261,9 @@
   }
 }
 @media(max-width: 1200px) {
+  .home-container {
+    background-color: var(--dl-color-gray-black);
+  }
   .home-container1 {
     width: 100vw;
   }
